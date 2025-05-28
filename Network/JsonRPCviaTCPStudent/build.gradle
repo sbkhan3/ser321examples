@@ -1,3 +1,4 @@
+include("JsonRPCviaTCPStudent")
 apply plugin: 'java'
 
 description = "TCP Json RPC Client Server Example"
@@ -27,6 +28,7 @@ repositories {
 dependencies {
     implementation group: 'org.json', name: 'json', version: '20200518'
 }
+
 
 /* for local library setup */
 /*
